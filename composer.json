@@ -1,0 +1,21 @@
+{
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.4",
+    "friendsofphp/php-cs-fixer": "^2.15",
+    "phpspec/phpspec": "^4.0",
+    "phpunit/phpunit": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Comingsoon\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ComingsoonTest\\": "tests/"
+    }
+  },
+  "require": {
+    "symfony/http-foundation": "^4.3"
+  }
+}
